@@ -14,6 +14,5 @@ the ArgoCD Auto Pilot.
 ```
 module "install_autopilot" {
   source                = "github.com/polinchw/argocd-autopilot-terraform-modules//modules/install-autopilot"
-  description           = "Downloads the Autopilot binary."
 }
 ```
