@@ -9,3 +9,8 @@ variable "git_token" {
 variable "git_repo" {
   description = "The git repo that contains your ArgoCD Autopilot repo."
 }
+
+variable "cluster_name" {
+  description = "The name of he cluster that autopilot will be deployed on"  
+  default = "my_cluster"
+}
