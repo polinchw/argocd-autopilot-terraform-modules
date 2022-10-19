@@ -12,5 +12,4 @@ variable "git_repo" {
 
 variable "cluster_name" {
   description = "The name of he cluster that autopilot will be deployed on"  
-  default = "my_cluster"
 }
