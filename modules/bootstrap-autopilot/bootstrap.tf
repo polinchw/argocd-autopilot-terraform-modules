@@ -1,7 +1,7 @@
 resource "null_resource" "bootstrap_autopilot" {
 
   triggers = {
-    id = var.cluster_name.id
+    id = var.cluster_name
   }
   provisioner "local-exec" {
     command     = "./argocd-autopilot-linux-amd64 repo bootstrap --recover" 
