@@ -11,5 +11,5 @@ variable "git_repo" {
 }
 
 variable "cluster_name" {
-  description = "The name of he cluster that autopilot will be deployed on"  
+  description = "The name of he cluster that autopilot will be deployed on. I made this dependent on an output from the cluster create.  This makes it wait for the cluster to be ready."  
 }
