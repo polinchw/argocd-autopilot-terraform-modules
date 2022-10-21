@@ -33,3 +33,7 @@ module "boostrap" {
   cluster_name    = module.cluster.host
 }
 ```
+
+### Sample repo
+
+This [repo](https://github.com/polinchw/terraform/) uses this module.  You can refer to is an example of recommended usage.
